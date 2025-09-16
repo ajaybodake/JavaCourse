@@ -1,0 +1,17 @@
+GIT Commands
+
+git init
+git status			check staging area
+git add <filename>		move file to staging area
+git status
+git diff
+git diff --staged
+git log
+git log --oneline
+git show [SHA]
+git add <filename>
+git commit -m <desc_of_commit>
+git push
+git push -f
+git remote
+git branch
