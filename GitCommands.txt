@@ -1,0 +1,52 @@
+GIT Commands
+
+HelloWorld.txt file has created
+
+git init				initialize a new git repo in a working project directory
+git status				check staging area
+git add <filename.ext>			add file to the staging area
+git add .				add all files to the staging area
+git add -A	
+git status				shows status of files in the staging area
+git commit -m <desc_of_commit>		add file to the local repo
+
+git commit -am			
+
+git status
+git remote add origin https://github.com/ajaybodake/JavaCourse.git		create connection between local repo and remote repo
+git push -u origin master		push file from local repo to the remote repo  -u means upstream
+
+HelloWorld.txt file edited
+
+git status
+git add <filename.ext>
+git status
+git commit -m <desc_of_commit>
+git status
+git push
+
+working on existing project
+
+make sure working directory folder path
+
+git remote
+git clone <url>		copy RR to the working directory
+modify the file
+git status
+git add <filename.ext>
+git status
+git commit -m <desc_of_commit>		
+git status
+git push -u origin master
+
+
+
+shows line by line changes in a file.
+git diff		shows diffenence between RR file and LR file.
+git diff --staged
+git diff <commit1> <commit2> 
+
+git log
+git log --oneline
+git show [SHA]
+git branch
